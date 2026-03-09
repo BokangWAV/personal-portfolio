@@ -4,7 +4,7 @@ import { ArrowRight, ChevronDown, Download, Github, Instagram, Linkedin } from "
 
 const downloadCV = () => {
   const link = document.createElement("a");
-  link.href = "/files/CV.pdf";
+  link.href = "/files/CV_SBM.pdf";
   link.download = "SBM_CV.pdf";
   link.click();
 };
